@@ -1,6 +1,6 @@
 # AI Space: developer duo blog and portfolio
 
-A trilingual (English / Russian / Hebrew with right-to-left layout) blog and portfolio site for a two-person developer team, Daria Levitan (back end) and Evgeny Nemchenko (front end). It lists articles by category (AI, digital marketing and SMM, back end, front end), introduces the team and showcases projects. Built as a small, typed Vue 3 single-page app with lazy-loaded routes, a dark mode and a language switcher that also flips the page direction.
+A trilingual (English / Russian / Hebrew with right-to-left layout) blog and portfolio site for a two-person developer team, Daria Levitan (back end) and Evgeny Levitan (front end). It lists articles by category (AI, digital marketing and SMM, back end, front end), introduces the team and showcases projects. Built as a small, typed Vue 3 single-page app with lazy-loaded routes, a dark mode and a language switcher that also flips the page direction.
 
 <p align="center">
   <img src="docs/screenshots/home.webp" alt="Home page: headline, article category filters and the latest articles list, with EN/RU/HE switcher and dark mode toggle" width="80%">
@@ -22,4 +22,4 @@ npm run build && npm run preview
 
 ## Author
 
-Evgeny Nemchenko, full-stack developer: [bluecat.cc](https://bluecat.cc) · [LinkedIn](https://www.linkedin.com/in/evgeny-nemchenko) · [nevgeny90@gmail.com](mailto:nevgeny90@gmail.com) · [GitHub @Jony251](https://github.com/Jony251)
+Evgeny Levitan, full-stack developer: [bluecat.cc](https://bluecat.cc) · [LinkedIn](https://www.linkedin.com/in/evgeny-nemchenko) · [nevgeny90@gmail.com](mailto:nevgeny90@gmail.com) · [GitHub @Jony251](https://github.com/Jony251)

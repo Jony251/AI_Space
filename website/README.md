@@ -1,6 +1,6 @@
 # Developer Duo Website
 
-A DevSpace-inspired portfolio site for Daria Levitan (Back-end) and Evgeny Nemchenko (Front-end).
+A DevSpace-inspired portfolio site for Daria Levitan (Back-end) and Evgeny Levitan (Front-end).
 
 ## Run
 
