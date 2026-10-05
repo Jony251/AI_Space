@@ -1,4 +1,25 @@
-<img width="1656" height="901" alt="image" src="https://github.com/user-attachments/assets/f81c3d1a-a782-4eb1-aa60-3546adcf70ef" />
-<img width="1671" height="900" alt="image" src="https://github.com/user-attachments/assets/6626b58e-3730-4b03-95ad-b221367d51e4" />
-<img width="1671" height="894" alt="image" src="https://github.com/user-attachments/assets/b392a477-6230-4f0d-8021-d00f50cfc2f2" />
+# AI Space: developer duo blog and portfolio
 
+A trilingual (English / Russian / Hebrew with right-to-left layout) blog and portfolio site for a two-person developer team, Daria Levitan (back end) and Evgeny Nemchenko (front end). It lists articles by category (AI, digital marketing and SMM, back end, front end), introduces the team and showcases projects. Built as a small, typed Vue 3 single-page app with lazy-loaded routes, a dark mode and a language switcher that also flips the page direction.
+
+<p align="center">
+  <img src="docs/screenshots/home.webp" alt="Home page: headline, article category filters and the latest articles list, with EN/RU/HE switcher and dark mode toggle" width="80%">
+</p>
+<p align="center">
+  <img src="docs/screenshots/team.webp" alt="Team page with short profiles of both developers" width="80%">
+</p>
+
+**Stack:** Vue 3 (Composition API, `<script setup>`) · TypeScript · Vue Router (lazy-loaded views) · Tailwind CSS 4 · Vite 7. Translations, articles, categories, team and projects live in typed modules under `website/src/i18n` and `website/src/data`, and the chosen language and theme are remembered in `localStorage`.
+
+## Run locally
+
+```bash
+cd website
+npm install
+npm run dev        # http://localhost:5173
+npm run build && npm run preview
+```
+
+## Author
+
+Evgeny Nemchenko, full-stack developer: [bluecat.cc](https://bluecat.cc) · [LinkedIn](https://www.linkedin.com/in/evgeny-nemchenko) · [nevgeny90@gmail.com](mailto:nevgeny90@gmail.com) · [GitHub @Jony251](https://github.com/Jony251)
